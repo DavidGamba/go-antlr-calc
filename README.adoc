@@ -1,0 +1,71 @@
+= Go Antlr Calculator
+
+Implements the calculator from chapter 4 of the Antlr book using Go (Golang).
+
+You should buy the book, find a link for it at https://www.antlr.org/
+
+The calculator is an example of Antlr's visitor pattern.
+
+== Warning
+
+I am not an Antlr expert, I haven't even finished reading the book.
+If you find a better way please share!
+
+== Setup
+
+. Download the antlr jar and generate the parser for Go.
++
+----
+$ ./antlr4 -Dlanguage=Go -no-listener -visitor -o parser ./LabeledExpr.g4
+----
+
+. Run the code and show the help:
++
+----
+$ go run main.go -h
+----
+
+. Run the code and get a single statement result:
++
+----
+$ go run main.go 1 + 2
+  3
+----
+
+. Run the code and read statements from file:
++
+----
+$ go run main.go -f t.expr
+> 193
+  193
+> a=5
+  5
+> b=6
+  6
+> a+b*2
+  17
+> (1+2)*3
+  9
+----
+
+. Run the code as a repl:
++
+----
+$ go run main.go
+> a = 1
+  1
+> b = 2
+  2
+> a + b
+  3
+----
+
+== License
+
+This file is part of go-antlr-calc.
+
+Copyright (C) 2020  David Gamba Rios
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
