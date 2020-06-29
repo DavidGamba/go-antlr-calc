@@ -16,7 +16,7 @@ If you find a better way please share!
 . Download the antlr jar and generate the parser for Go.
 +
 ----
-$ ./antlr4 -Dlanguage=Go -no-listener -visitor -o parser ./LabeledExpr.g4
+$ go generate -x
 ----
 
 . Run the code and show the help:
