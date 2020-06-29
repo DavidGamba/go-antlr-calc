@@ -2,3 +2,5 @@ github.com/DavidGamba/go-getoptions v0.17.0 h1:dSP8GsjVj/bGrKS753YvcHXYy5Uq1VQUz
 github.com/DavidGamba/go-getoptions v0.17.0/go.mod h1:wYjd1McJbGzBFD61+lahGR+5A8QGA1aBnRZmfkBLy5A=
 github.com/antlr/antlr4 v0.0.0-20200119161855-7a3f40bc341d h1:YyyukUZiej+hTJINHjowi57xLQE9SN2KOJ7kYMKhr7I=
 github.com/antlr/antlr4 v0.0.0-20200119161855-7a3f40bc341d/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
+github.com/antlr/antlr4 v0.0.0-20200622152914-7a6db6a50abf h1:UlbXPfeI3bqmIOVsJo9skZg5GtdinV1q4haA1t4I9BM=
+github.com/antlr/antlr4 v0.0.0-20200622152914-7a6db6a50abf/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
